@@ -7,9 +7,10 @@ const BoxOne = () => (
     <div className='BoxOne'>
         <h2 className='text'>Select a device</h2>
         <div className='service'>
-            <div className='Air'><h4>Air Freight</h4>
-             <AirplaneIcon className='Airplane'/>
-        </div>
+            <div className='Air'>
+                <h4>Air Freight</h4>
+                 <AirplaneIcon className='Airplane'/>
+            </div>
                
             
             <div className='ServiceOption' ><h4>Sea Freight</h4></div>

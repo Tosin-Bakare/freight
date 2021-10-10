@@ -1,5 +1,6 @@
 .Nav{
-    height: 70px;
+    height: 7vh;
+    /* width: 100vw; */
     color: white;
     padding: 10px;
     background-color:rgb(7, 70, 166);
@@ -44,7 +45,6 @@ span .freight{
 }
 .request{
     color: white;
-    width: 13vw;
     padding: 10px;
     margin-top: 13px;
     background-color: rgb(32, 89, 175);
@@ -55,7 +55,6 @@ span .freight{
 .book{
     margin-left: 20px;
     color: white;
-    width: 13vw;
     padding: 10px;
     background-color: rgb(92, 198, 133);
     border: 1px solid rgb(92, 198, 133);
