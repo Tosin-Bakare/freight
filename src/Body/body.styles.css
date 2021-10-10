@@ -1,0 +1,9 @@
+.body{
+    background-color: rgb(241, 242, 245);
+    padding-left: 7%;
+    height: 100vh;
+}
+.fill{
+    color: gray;
+    padding-bottom: 20px;
+}

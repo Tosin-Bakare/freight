@@ -1,0 +1,64 @@
+.Nav{
+    height: 70px;
+    color: white;
+    padding: 10px;
+    background-color:rgb(7, 70, 166);
+    display: flex;
+    justify-content:space-between;
+}
+.LogoSearch{
+    display: flex;
+    color: white;
+    padding-left: 70px;
+}
+span .freight{
+    font-size: 10px;
+}
+.Logo{
+    font-family:'oswald';
+    font-size: x-large;
+    margin-top: 13px;
+}
+.span{
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search{
+    margin-top: 13px;
+    padding: 7px;
+    height: 20px;
+    width: 30vw;
+    margin-left: 30px;
+    background-color: rgb(57, 107, 184);
+    border: 1px solid rgb(57, 107, 184);
+}
+ ::placeholder{
+    color: silver;
+    padding: 10px;
+}
+.icon{
+    position: relative;
+    color: white;
+    margin-top: 22px;
+    margin-left: -29px;
+}
+.request{
+    color: white;
+    width: 13vw;
+    padding: 10px;
+    margin-top: 13px;
+    background-color: rgb(32, 89, 175);
+    border: 1px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book{
+    margin-left: 20px;
+    color: white;
+    width: 13vw;
+    padding: 10px;
+    background-color: rgb(92, 198, 133);
+    border: 1px solid rgb(92, 198, 133);
+    border-radius: 5px;
+    cursor: pointer;
+}
