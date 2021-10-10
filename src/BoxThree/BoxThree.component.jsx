@@ -3,13 +3,38 @@ import './BoxThree.styles.css';
 
 const BoxThree = () => (
     <div className='BoxThree'>
-        <h2 className='text'>Cargo Details</h2>
-        <div className='service'>
-            <div className='Air'><h4>Air Freight</h4></div>
-            <div className='ServiceOption' ><h4>Sea Freight</h4></div>
-            <div className='ServiceOption' ><h4>Inland <br />(Truck & Barge) </h4></div>
-            <div className='ServiceOption' ><h4>Customs Clearance </h4></div>
+        <div className='cargoTop'>
+              <h2 className='text'>Cargo Details</h2>
+            
+            <div className='TextSwitch'>
+                <label className="switch">
+                        <input type="checkbox"/>
+                        <span className='slider round'></span>
+            </label>
+            <p>Dangerous cargo (ex. Chemicals, Battery)</p>
+            </div>
         </div>
+      
+
+            <div  className='Details'>
+                <div className='Total'>
+                    <button className='TotalD'>Total Dimensions</button>
+                    <button className='PackageD'>Package Details</button>
+                </div>
+                {/* <div className='VolumeWeight'>
+                    <p className='TDtext'>Total Volume</p>
+               <div className='Volume'><span>cbm</span></div> */}
+                     {/* <p className='TDtext'>Total Weight</p>
+                     <div className='Weight'><span>kg</span></div>       */}
+                {/* </div> */}
+            </div>
+        
+            
     </div>
 )
 export default BoxThree;
+
+
+ 
+
+                

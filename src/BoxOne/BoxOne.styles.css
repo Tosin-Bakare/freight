@@ -1,6 +1,9 @@
 .BoxOne{
     height:200px;
-    width: 80vw;
+    width: 70vw;
+    justify-content: center;
+    margin-left: 5%;
+    flex-shrink: 1;
     padding: 20px 40px 0  60px;
     background-color: white;
     border-radius: 5px;
@@ -20,6 +23,25 @@
     width: 15vw;
     height: 87px;
      border-radius: 3px;
+}
+.AirplaneIcon{
+    width: 250px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: -10px;
+    color: white;
+    right: 0;
+    bottom: 0;
+    /* position: relative; */
+}
+.ShipIcon{
+    width: 250px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+     margin-left: 150px;
+     margin-top: -10px;
+    /* position: relative; */
 }
 .ServiceOption{
     color: gray;

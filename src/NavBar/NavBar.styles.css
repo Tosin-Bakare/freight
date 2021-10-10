@@ -1,11 +1,11 @@
 .Nav{
     height: 7vh;
-    /* width: 100vw; */
     color: white;
     padding: 10px;
     background-color:rgb(7, 70, 166);
     display: flex;
     justify-content:space-between;
+    flex-shrink: 2;
 }
 .LogoSearch{
     display: flex;
@@ -60,4 +60,22 @@ span .freight{
     border: 1px solid rgb(92, 198, 133);
     border-radius: 5px;
     cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .Nav{
+        width: fit-content;
+    }
+    .Logo{
+        font-size: smaller;
+        margin-left: -70px;
+    }
+    .search{
+        width: 20vw;
+        margin-left: -10px;
+    }
+    .request{
+        width: 65px;
+        padding: 3px;
+        margin-left: 5px;
+    }
 }

@@ -1,19 +1,32 @@
 .BoxTwo {
     height: 200px;
-    width: 80vw;
+    width: 70vw;
+    margin-left: 5%;
     margin-top: 30px;
     padding: 20px 40px 0 60px;
     background-color: white;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 2;
 }
 .options1{
     display: flex;
     justify-content: space-between;
 }
+.circleIcon{
+    margin-bottom: 7px;
+}
+.ImportExport{
+    background-color: white;
+    color: silver;
+     width:max-content;
+     height: 40px;
+     padding: 15px;
+     border: 1px solid gray;
+}
 .From{
-    width:25%;
+    /* width: 250px; */
     height: 20px;
     padding: 7px;
     background-color: rgb(243, 243, 243);
@@ -26,10 +39,28 @@
     justify-content: space-between;
 }
 .From-2 {
-    width: 30%;
-    margin-left: 7px;
+    width: max-content;
     height: 20px;
     padding: 7px;
     background-color: rgb(243, 243, 243);
     border: 1px solid rgb(243, 243, 243);
+}
+.From-3{
+    width: 280px;
+    padding: 10px;
+    color: silver;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(243, 243, 243);
+      }
+
+.GeoDiv{
+    display:inline-flex;
+}
+.GeoIcon{
+     height: 20px;
+     padding: 10px;
+     background-color: rgb(243, 243, 243);
+    margin-top: 0px;
+    height: 17px;
+
 }

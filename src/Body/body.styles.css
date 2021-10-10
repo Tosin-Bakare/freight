@@ -1,9 +1,18 @@
 .body{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 120px;
     background-color: rgb(241, 242, 245);
     padding-left: 7%;
-    /* height: 100vh; */
+    top: 0;
+    flex-shrink: 1;
 }
 .fill{
     color: gray;
     padding-bottom: 20px;
+    margin-left: 5%;
+}
+.New{
+    margin-left: 5%;
+    top: 0;
 }
