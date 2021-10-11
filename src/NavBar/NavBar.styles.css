@@ -12,11 +12,11 @@
     color: white;
     padding-left: 70px;
 }
-span .freight{
-    font-size: 10px;
+.freight{
+    font-size: 15px;
 }
 .Logo{
-    font-family:'oswald';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     margin-top: 13px;
 }
@@ -26,10 +26,11 @@ span .freight{
 }
 .search{
     margin-top: 13px;
-    padding: 7px;
+    padding: 10px;
     height: 20px;
     width: 30vw;
     margin-left: 30px;
+    font-size: larger;
     background-color: rgb(57, 107, 184);
     border: 1px solid rgb(57, 107, 184);
 }
@@ -51,6 +52,7 @@ span .freight{
     border: 1px solid silver;
     border-radius: 5px;
     cursor: pointer;
+    font-size: larger;
 }
 .book{
     margin-left: 20px;
@@ -60,22 +62,5 @@ span .freight{
     border: 1px solid rgb(92, 198, 133);
     border-radius: 5px;
     cursor: pointer;
-}
-@media screen and (max-width: 600px) {
-    .Nav{
-        width: fit-content;
-    }
-    .Logo{
-        font-size: smaller;
-        margin-left: -70px;
-    }
-    .search{
-        width: 20vw;
-        margin-left: -10px;
-    }
-    .request{
-        width: 65px;
-        padding: 3px;
-        margin-left: 5px;
-    }
+    font-size: larger;
 }

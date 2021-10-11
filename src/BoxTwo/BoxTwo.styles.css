@@ -1,9 +1,6 @@
 .BoxTwo {
-    height: 200px;
-    width: 70vw;
-    margin-left: 5%;
+   padding: 2rem;
     margin-top: 30px;
-    padding: 20px 40px 0 60px;
     background-color: white;
     border-radius: 5px;
     display: flex;
@@ -12,6 +9,8 @@
 }
 .options1{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-between;
 }
 .circleIcon{
@@ -21,14 +20,13 @@
     background-color: white;
     color: silver;
      width:max-content;
-     height: 40px;
-     padding: 15px;
+     font-size: larger;
+     padding: 15px 25px;
      border: 1px solid gray;
 }
 .From{
-    /* width: 250px; */
-    height: 20px;
-    padding: 7px;
+    padding: 12px;
+    font-size: larger;
     background-color: rgb(243, 243, 243);
     border: 1px solid rgb(243, 243, 243);
 }
@@ -36,18 +34,20 @@
 .options2{
     margin-top: 30px;
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .From-2 {
-    width: max-content;
-    height: 20px;
-    padding: 7px;
+    padding: 12px;
+    font-size: larger;
     background-color: rgb(243, 243, 243);
     border: 1px solid rgb(243, 243, 243);
 }
 .From-3{
     width: 280px;
-    padding: 10px;
+    font-size: larger;
+    padding: 12px;
     color: silver;
     background-color: rgb(243, 243, 243);
     border: 1px solid rgb(243, 243, 243);
@@ -57,10 +57,7 @@
     display:inline-flex;
 }
 .GeoIcon{
-     height: 20px;
-     padding: 10px;
+     padding: 19px;
      background-color: rgb(243, 243, 243);
     margin-top: 0px;
-    height: 17px;
-
 }

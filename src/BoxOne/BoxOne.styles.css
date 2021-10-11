@@ -1,55 +1,65 @@
 .BoxOne{
-    height:200px;
-    width: 70vw;
+    padding: 2rem ;
     justify-content: center;
-    margin-left: 5%;
-    flex-shrink: 1;
-    padding: 20px 40px 0  60px;
     background-color: white;
     border-radius: 5px;
 }
-.text{
-    font-size: large;
+.text-service{
+    font-size: x-large;
+    padding-top: 10px;
 }
 .service{
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
+     display: flex;
+     gap: 1rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .Air{
     color: silver;
     padding: 5px;
     background-color: rgb(7, 70, 166);
-    width: 15vw;
-    height: 87px;
+    font-size: larger;
+    width: 200px;
      border-radius: 3px;
+     position: relative;
+     overflow: hidden;
 }
 .AirplaneIcon{
-    width: 250px;
-    height: 50px;
-    margin-left: 150px;
-    margin-top: -10px;
     color: white;
-    right: 0;
-    bottom: 0;
-    /* position: relative; */
+    right: 5px;
+    bottom: 5px;
+    position: absolute;
+    transform: scale(3.5);
 }
 .ShipIcon{
-    width: 250px;
-    height: 50px;
-    right: 0;
+    right: 7px;
     bottom: 0;
-     margin-left: 150px;
-     margin-top: -10px;
-    /* position: relative; */
+    transform: scale(4.5);
+    position: absolute;
 }
+.TruckIcon{
+      right: 20px;
+      bottom: 15px;
+      transform: scale(4.0);
+      position: absolute;
+}
+.PoliceIcon{
+    right: 0;
+    bottom: 17px;
+    transform: scale(3.5);
+    position: absolute;
+    }
+
 .ServiceOption{
     color: gray;
-    width: 15vw;
-    height: 87px;
+    width: 200px;
+    font-size: larger;
+    position: relative;
     border: 1px solid gray;
-    padding: 5px;
-     border-radius: 3px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 5%;
 }
 
 .Airplane{

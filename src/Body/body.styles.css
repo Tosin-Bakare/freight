@@ -3,16 +3,18 @@
     flex-direction: column;
     flex-basis: 120px;
     background-color: rgb(241, 242, 245);
-    padding-left: 7%;
+    padding: 0 12%;
     top: 0;
     flex-shrink: 1;
+    flex-wrap: wrap;
+    overflow-x: hidden;
 }
 .fill{
     color: gray;
     padding-bottom: 20px;
-    margin-left: 5%;
+    line-height: 0ch;
+    
 }
 .New{
-    margin-left: 5%;
-    top: 0;
+    line-height: 2ch;
 }

@@ -1,15 +1,13 @@
 .BoxThree {
-    height: 200px;
-    width: 70vw;
+   padding: 2rem;
     margin-top: 30px;
-    margin-left: 5%;
-    padding: 20px 40px 0 60px;
     background-color: white;
     border-radius: 5px;
     flex-shrink: 1;
 }
 .cargoTop{
      display: flex;
+     flex-wrap: wrap;
      justify-content: space-between;
 }
 .text {
@@ -27,7 +25,6 @@
     border: 1px solid gray;
     width: 12vw;
     height: 50px;
-    /* margin-left: 50px; */
 }
 .Weight{
      border: 1px solid gray;
@@ -41,11 +38,12 @@
     margin-top: 15px;
 }
 .switch{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .TextSwitch p {
     margin-left: 10px;
+    font-size: larger;
 }
 .TotalD{
     height: 50px;
@@ -56,11 +54,13 @@
     border: 1px solid gray;
     border-radius: 9px;
     margin-bottom: 15px;
+    font-size: larger;
 }
 .PackageD{
     height: 50px;
       font-size: large;
       font-weight: 500;
+      font-size: larger;
       color: gray;
       background-color: rgb(241, 242, 245);
       border: none;

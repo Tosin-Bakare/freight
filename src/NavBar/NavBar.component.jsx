@@ -6,12 +6,8 @@ const NavBar = () => (
     <div className='Nav'>
         <div className='LogoSearch'>
              <div className ='Logo'>Send <span className='freight'>FREIGHT</span> </div>
-            {/* <form> */}
-                {/* <label> */}
                      <input className='search' type="text" name="name" placeholder="Search "/>
-                     < i className='icon'><RiSearchLine /> </i>
-                {/* </label> */}
-            {/* </form> */}
+                    <RiSearchLine  className='icon' /> 
         </div>
        
         <div className='buttons'>
