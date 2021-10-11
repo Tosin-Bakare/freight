@@ -7,6 +7,7 @@ import './body.styles.css';
 
 const Body = () => (
     <div className='body'>
+        
         <h1 className='New'>New Booking</h1>
         <p className='fill'>Fill in the information to get a quote or create a new booking</p>
         <BoxOne />
