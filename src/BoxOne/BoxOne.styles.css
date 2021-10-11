@@ -11,15 +11,16 @@
 .service{
      display: flex;
      gap: 1rem;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+     justify-content: space-;
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
 }
 .Air{
     color: silver;
     padding: 5px;
     background-color: rgb(7, 70, 166);
     font-size: larger;
-    width: 200px;
+    width: 220px;
      border-radius: 3px;
      position: relative;
      overflow: hidden;
@@ -58,10 +59,10 @@
     font-size: larger;
     position: relative;
     border: 1px solid gray;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 3px;
     overflow: hidden;
-    /* margin-left: 5%; */
+    margin-left: 10%;
 }
 
 .Airplane{
@@ -79,9 +80,11 @@
     }
     .Air{
         width: 270px;
+        margin-left: 5px;
     }
     .ServiceOption{
         width: 250px;
+        margin-left: 2%;
     }
     .text-service{
         font-size: larger;

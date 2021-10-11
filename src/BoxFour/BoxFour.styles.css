@@ -111,18 +111,22 @@ input:checked+.slider:before {
     }
     .export{
         font-size: 18px;
-        /* inline-size: 50px; */
         
     }
     .switch{
         width: 120px;
-        /* height: 30px; */
-        margin-right: 5px;
+        max-width: 120px;
+        margin-right: 10px;
     }
     .cargo{
-        margin-top: -20px;
+        margin-left: 5px;
+        font-size: 18px;
     }
     .ExportP{
-        font-size: xx-large;
+        /* font-size: xx-large; */
+    }
+    .slider{
+         width: 60px;
+         /* max-width: 120px; */
     }
 }

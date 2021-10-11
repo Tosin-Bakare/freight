@@ -47,7 +47,7 @@
     font-size: larger;
 }
 .Total{
-    margin-bottom: 2px;
+    margin-bottom: 20px;
 }
 .TotalD{
     height: 50px;
@@ -57,8 +57,8 @@
     background-color: white;
     border: 1px solid gray;
     border-radius: 9px;
-    margin-bottom: 15px;
-    font-size: larger;
+    /* margin-bottom: 15px; */
+    font-size: 18px;
 }
 .PackageD{
     height: 50px;
@@ -110,6 +110,7 @@
      font-weight: 700;
      position: absolute;
      margin-left: 7px;
+     margin-top: 33px;
      top: 155px;
      z-index: 3;
      background-color: white;

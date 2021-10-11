@@ -20,8 +20,8 @@ const BoxFour = () => (
                         <input type="checkbox"/>
                         <span className='slider round'></span>
                     </label>
-                    <div className='export' ><h4>Import Customs Clearance</h4>
-                     <p className='ExportP'>We handle import customs and regulatory requirements</p></div>
+                    <div className='export' ><h4>Cargo Insurance</h4>
+                     <p className='ExportP'>Protect your cargo from logistics risks up to its full value.</p></div>
                 </div>      
              </div>
         <div className='additional'>
@@ -30,8 +30,8 @@ const BoxFour = () => (
                         <input type="checkbox"/>
                         <span className='slider round'></span>
                     </label>
-            <div className='cargo'><h4>Cargo Insurance</h4>
-               <p className='ExportP'>Protect your cargo from logistics risks up to its full value.</p></div>
+            <div className='cargo'><h4>Import Customs Clearance</h4>
+               <p className='ExportP'>We handle import customs and regulatory requirements</p></div>
                </div>
                 <div className='TextSwitch'>
                      <label className="switch">
@@ -47,3 +47,4 @@ const BoxFour = () => (
     </div>
 )
 export default BoxFour;
+
