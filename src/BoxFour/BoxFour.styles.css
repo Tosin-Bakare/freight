@@ -108,6 +108,7 @@ input:checked+.slider:before {
     }
     .BoxFour{
         width: 280px;
+         margin-left: -10px;
     }
     .export{
         font-size: 18px;
@@ -122,8 +123,8 @@ input:checked+.slider:before {
         margin-left: 5px;
         font-size: 18px;
     }
-    .ExportP{
-        /* font-size: xx-large; */
+    .Transport{
+        /* padding-left: 10px; */
     }
     .slider{
          width: 60px;

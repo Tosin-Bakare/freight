@@ -70,6 +70,7 @@
 @media only screen and (max-width: 600px) {
     .BoxTwo{
       width: 280px;  
+       margin-left: -10px;
     }
     .From{
         /* width: 180px; */

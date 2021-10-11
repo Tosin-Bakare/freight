@@ -38,7 +38,7 @@ const BoxFour = () => (
                         <input type="checkbox"/>
                         <span className='slider round'></span>
                     </label>
-            <div className='cargo' ><h4>Transport/Delivery</h4>
+            <div className='cargo'><h4 className='Transport'> Transport/Delivery</h4>
                <p className='ExportP'>We deliver the cargo to your doorstep from the ports.</p></div>
                </div>
         </div>

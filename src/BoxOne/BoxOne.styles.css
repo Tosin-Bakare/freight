@@ -73,6 +73,7 @@
 @media only screen and (max-width: 600px) {
     .BoxOne{
         width: 280px;
+        margin-left: -10px;
     }
     .service{
         display: flex;
