@@ -4,6 +4,7 @@
     background-color: white;
     border-radius: 5px;
     flex-shrink: 1;
+    position: relative;
 }
 .cargoTop{
      display: flex;
@@ -67,4 +68,48 @@
       border-radius: 5px;
       padding-left: 10px;
      margin-bottom: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .Total{
+        display: flex;
+    }
+    .text{
+
+    }
+    .checkbox{
+        width: 120px;
+    }
+    .cargoTop{
+        display: flex;
+    }
+    .TextSwitch p{
+        font-size: 13px;
+    }
+    .TotalD{
+        text-align: start;
+    }
+    .PackageD{
+        text-align: start;
+    }
+    .Bigcbm{
+        display: flex;
+    }
+    .cbm{
+        margin-right: 15px;
+        height:40px;
+        width: 40px;
+        border: 1px solid gray;
+        right: 30px;
+        bottom: 20px;
+        position: absolute;
+        background-color: green;
+    }
+    .cbmHolder{
+        width: 90px;
+        height: 40px;
+    }
+    .Details2{
+        display: flex;
+        gap: ;
+    }
 }

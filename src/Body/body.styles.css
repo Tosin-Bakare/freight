@@ -9,12 +9,38 @@
     flex-wrap: wrap;
     overflow-x: hidden;
 }
+.ArrowWords{
+    display: flex;
+}
+.arrow{
+    /* left: 20px;
+    top:105px; */
+    left: 75px;
+    top: 120px;
+    position: absolute;
+    transform: scale(2.5);
+}
 .fill{
     color: gray;
     padding-bottom: 20px;
     line-height: 0ch;
-    
 }
 .New{
     line-height: 2ch;
+}
+@media only screen and (max-width: 600px) {
+    .fill{
+        line-height: 0.5cm;
+    }
+    .New{
+        font-size: larger;
+        line-height: 1.5cm;
+    }
+    .arrow{
+        left: 20px;
+        top: 100px;
+        transform: scale(1.5);
+        /* position: absolute; */
+        /* transform: scale(1.5); */
+    }
 }

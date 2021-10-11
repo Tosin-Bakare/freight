@@ -48,6 +48,8 @@
     bottom: 17px;
     transform: scale(3.5);
     position: absolute;
+    color: gray;
+    /* fill: gray; */
     }
 
 .ServiceOption{
@@ -66,4 +68,23 @@
     width: 50px;
     margin-top: -640px;
     position: absolute;
+}
+@media only screen and (max-width: 600px) {
+    .BoxOne{
+        width: 280px;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+    .Air{
+        width: 270px;
+    }
+    .ServiceOption{
+        width: 250px;
+    }
+    .text-service{
+        font-size: larger;
+        padding-top: 1px;
+    }
 }

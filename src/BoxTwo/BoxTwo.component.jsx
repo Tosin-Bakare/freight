@@ -14,12 +14,18 @@ const BoxTwo = () => (
                 <button className='ImportExport'>Export</button>
             </div>
             <div className='GeoDiv'>
-                 <BsGeoAltFill className='GeoIcon'/>
-                  <input className='From' type="text" name="name" placeholder="From City or port"/>
+                <div className="GeoFrom">
+                        <BsGeoAltFill className='GeoIcon'/>
+                        <p>From</p>
+                </div>
+                  <input className='From' type="text" name="name" placeholder=" city or port"/>
             </div>
               <div className='GeoDiv'>
-                 <BsGeoAltFill className='GeoIcon'/>
-                 <input className='From' type="text" name="name" placeholder="To City or port"/>
+                  <div className="GeoFrom">
+                        <BsGeoAltFill className='GeoIcon'/>
+                        <p>To</p>
+                </div>
+                 <input className='From' type="text" name="name" placeholder=" city or port"/>
               </div>
             
         </div>
@@ -33,7 +39,6 @@ const BoxTwo = () => (
                 <option selected value="incoterms">incoterms</option>
                 <option value="incoterms">incoterms</option>
             </select>
-            {/* <input className='From-2' type="text" name="name" placeholder="Incoterms"/> */}
             <input className='From-2' type="text" name="name" placeholder="Total Cargo Value"/>
         </div>
     </div>
