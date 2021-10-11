@@ -94,6 +94,7 @@
 }
 @media only screen and (max-width: 375px) {
     .BoxOne{
-        margin-right: 20px;
+        /* border: 1px solid red; */
+        margin-left: -30px;
     }
 }

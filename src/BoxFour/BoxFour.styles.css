@@ -131,3 +131,12 @@ input:checked+.slider:before {
          /* max-width: 120px; */
     }
 }
+@media only screen and (max-width: 375px) {
+    .BoxFour {
+        /* border: 1px solid red; */
+        margin-left: -30px;
+        /* margin-right: 20px; */
+        /* padding: 1rem; */
+    }
+}
+

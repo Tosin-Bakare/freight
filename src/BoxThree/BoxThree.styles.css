@@ -174,3 +174,11 @@
       background-color: white;
     }
 }
+@media only screen and (max-width: 375px) {
+    .BoxThree {
+        /* border: 1px solid red; */
+        margin-left: -30px;
+        /* margin-right: 10px; */
+        /* padding: 1rem; */
+    }
+}
