@@ -63,22 +63,25 @@
      background-color: rgb(243, 243, 243);
 }
 .GeoIcon{
-     padding: 15px;
+     padding: 17px;
      background-color: rgb(243, 243, 243);
-    margin-top: 5px;
+    /* margin-top: 8px; */
 }
 @media only screen and (max-width: 600px) {
     .BoxTwo{
       width: 280px;  
     }
     .From{
-        width: 180px;
+        /* width: 180px; */
+        width: 100%;
     }
     .From-2{
-        width: 220px;
+        /* width: 220px; */
+        width: 100%;
     }
     .From-3{
-        width: 320px;
+        /* width: 320px; */
+        width: 100%;
     }
     .ImportExport{
         padding: 5px 10px;

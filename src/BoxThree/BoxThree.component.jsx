@@ -20,16 +20,18 @@ const BoxThree = () => (
                     <button className='TotalD'>Total Dimensions</button>
                     <button className='PackageD'>Package Details</button>
                 </div>
-                {/* <div className='Bigcbm'>
+                <div className='Bigcbm'>
                     <div className='Details2'>
+                        <p>Total Volume</p>
                         <input className='cbmHolder' type="text" name="name" placeholder="cbm" />
-                        <p className='cbm'>cbm</p>
+                        {/* <p className='cbm'>cbm</p> */}
                     </div>
                     <div className='Details2'>
+                        <p>Total Weight</p>
                          <input className='cbmHolder' type="text" name="name" placeholder="kg"/>
-                         <p className='cbm'>kg</p>
+                         {/* <p className='cbm'>kg</p> */}
                      </div>
-                </div> */}
+                </div>
              
             </div>
         

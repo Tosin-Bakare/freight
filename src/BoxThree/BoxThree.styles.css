@@ -46,6 +46,9 @@
     margin-left: 10px;
     font-size: larger;
 }
+.Total{
+    margin-bottom: 2px;
+}
 .TotalD{
     height: 50px;
     font-size: large;
@@ -69,6 +72,49 @@
       padding-left: 10px;
      margin-bottom: 15px;
 }
+ .Bigcbm {
+     display: flex;
+ }
+
+ .cbm {
+     margin-right: 10px;
+     height: 40px;
+     width: 40px;
+     border: none;
+     right: 30px;
+     bottom: 20px;
+     position: absolute;
+     background-color: green;
+ }
+
+ .cbmHolder {
+     width: 100px;
+     /* height: 40px; */
+     text-align: right;
+     border: 1px solid gray;
+     background-color: white;
+
+ }
+
+ .Details2 {
+     display: flex;
+     /* justify-content: space-between; */
+     height: 40px;
+     width: 120px;
+     /* border: 1px solid red; */
+     z-index: 3;
+ }
+
+ .Details2 p {
+     font-size: small;
+     font-weight: 700;
+     position: absolute;
+     margin-left: 7px;
+     top: 155px;
+     z-index: 3;
+     background-color: white;
+
+ }
 @media only screen and (max-width: 600px) {
     .Total{
         display: flex;
@@ -87,9 +133,11 @@
     }
     .TotalD{
         text-align: start;
+        font-size: small;
     }
     .PackageD{
         text-align: start;
+        font-size: small;
     }
     .Bigcbm{
         display: flex;
@@ -98,7 +146,7 @@
         margin-right: 15px;
         height:40px;
         width: 40px;
-        border: 1px solid gray;
+        border: none;
         right: 30px;
         bottom: 20px;
         position: absolute;
@@ -110,6 +158,14 @@
     }
     .Details2{
         display: flex;
-        gap: ;
+    }
+    .Details2 p{
+      font-size: small;
+      font-weight: 700;
+      position: absolute;
+      top: 183px;
+      margin-left: 5px;
+      z-index: 3;
+      background-color: white;
     }
 }
