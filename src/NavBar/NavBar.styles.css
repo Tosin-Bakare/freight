@@ -67,16 +67,16 @@
 @media only screen and (max-width: 600px) {
     .Nav{
         padding: 5px;
-        display: flex;
+        display: inline-flex;
+        
     }
     .Logo{
         margin-left: -72px;
         font-size: small;
         display: inline-flex;
-        margin-top: 25px;
+        margin-top: 18px;
     }
     .send{
-        /* margin-top: 2px; */
         font-size: 18px;
     }
     .freight{
@@ -90,15 +90,19 @@
     }
     .request{
         font-size: small;
-        padding: 5px;
+        padding: 2px;
         margin-left: 20px;
+        margin-top: 12px;
+        height: 35px;
+        
     }
     .book{
            font-size: small;
            padding: 2px;
            height: 35px;
-           margin-top: 15px;
+           margin-top: 12px;
            margin-left: 2px;
+              border: 2px solid rgb(92, 198, 133);
     }
     .buttons{
         display: flex;
