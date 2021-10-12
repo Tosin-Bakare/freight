@@ -75,6 +75,14 @@
         display: inline-flex;
         margin-top: 25px;
     }
+    .send{
+        /* margin-top: 2px; */
+        font-size: 20px;
+    }
+    .freight{
+        font-size: 13px;
+        margin-top: 7px;
+    }
     .search{
         padding: 5px;
         margin-left: 5px;

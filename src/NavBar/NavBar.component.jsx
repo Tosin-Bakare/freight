@@ -5,7 +5,7 @@ import './NavBar.styles.css';
 const NavBar = () => (
     <div className='Nav'>
         <div className='LogoSearch'>
-             <div className ='Logo'>Send <span className='freight'>FREIGHT</span> </div>
+             <div className ='Logo'><span className='send'>Send</span> <span className='freight'>FREIGHT</span> </div>
                      <input className='search' type="text" name="name" placeholder="Search "/>
                     <RiSearchLine  className='icon' /> 
         </div>
