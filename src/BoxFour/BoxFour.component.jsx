@@ -25,7 +25,8 @@ const BoxFour = () => (
                 </div>      
              </div>
         <div className='additional'>
-             <div className='TextSwitch'>
+            <div className='ImportCustoms'>
+                 <div className='TextSwitch'>
                      <label className="switch">
                         <input type="checkbox"/>
                         <span className='slider round'></span>
@@ -42,6 +43,8 @@ const BoxFour = () => (
                <p className='ExportP'>We deliver the cargo to your doorstep from the ports.</p></div>
                </div>
         </div>
+            </div>
+            
         </div>
        
     </div>
