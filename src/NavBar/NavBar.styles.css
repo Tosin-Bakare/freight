@@ -64,6 +64,7 @@
     cursor: pointer;
     font-size: larger;
 }
+
 @media only screen and (max-width: 600px) {
     .Nav{
         padding: 5px;
@@ -102,9 +103,6 @@
            height: 35px;
            margin-top: 12px;
            margin-left: 2px;
-              border: 2px solid rgb(92, 198, 133);
-    }
-    .buttons{
-        display: flex;
+           border: 2px solid rgb(92, 198, 133);
     }
 }
